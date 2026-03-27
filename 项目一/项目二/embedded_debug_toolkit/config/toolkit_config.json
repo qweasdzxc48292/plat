@@ -1,0 +1,26 @@
+{
+  "logic": {
+    "channels": 8,
+    "sample_rate_hz": 5000000,
+    "max_sample_rate_hz": 100000000,
+    "ring_capacity_samples": 131072,
+    "trigger": {
+      "mode": "edge_rising",
+      "channel": 0
+    }
+  },
+  "sump": {
+    "bind_ip": "0.0.0.0",
+    "port": 9527,
+    "capture_samples": 8192
+  },
+  "tools": {
+    "v4l2_device": "/dev/video0",
+    "network_interface": "eth0",
+    "system_monitor_interval_ms": 500
+  },
+  "plugin": {
+    "backend_dir": "./plugins",
+    "qt_plugin_dir": "./qt_gui/build/app/plugins"
+  }
+}
