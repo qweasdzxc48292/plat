@@ -1,0 +1,27 @@
+{
+  "mqtt_host": "192.168.5.10",
+  "mqtt_port": 1883,
+  "mqtt_client_id": "imx6ull_home_hub",
+  "mqtt_username": "",
+  "mqtt_password": "",
+  "mqtt_topic_up": "/iot/up",
+  "mqtt_topic_down": "/iot/down",
+  "mqtt_topic_resp": "/iot/resp",
+  "mqtt_qos_report": 0,
+  "mqtt_qos_control": 1,
+  "mqtt_qos_response": 1,
+  "mqtt_keepalive_sec": 20,
+  "mqtt_reconnect_sec": 5,
+  "report_interval_sec": 5,
+
+  "led_dev": "/dev/hub_led",
+  "dht11_dev": "/dev/mydht11",
+  "video_dev": "/dev/video0",
+  "video_width": 640,
+  "video_height": 480,
+  "video_fps": 30,
+
+  "pool_block_count": 4,
+  "pool_block_size": 4147200,
+  "media_default_file": "/root/media/test.wav"
+}
